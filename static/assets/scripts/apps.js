@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
       link: 'https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar',
       image: '/assets/media/icons/android.webp',
       categories: ['all', 'emu', 'android'],
-      now: true,
     },
     {
       name: 'Temu',
@@ -30,14 +29,12 @@ document.addEventListener('DOMContentLoaded', () => {
       link: 'https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar',
       image: '/assets/media/icons/characterai.webp',
       categories: ['all', 'emu', 'android'],
-      now: true,
     },
     {
       name: 'Aptoide',
       link: 'https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar',
       image: '/assets/media/icons/aptoide.webp',
       categories: ['all', 'emu', 'android'],
-      now: true,
     },
     {
       name: 'Movie Web',
@@ -270,6 +267,12 @@ document.addEventListener('DOMContentLoaded', () => {
       image: '/assets/media/icons/amazon-luna.webp',
       categories: ['all', 'game', 'cloud'],
       blank: 'true',
+    },
+    {
+      name: 'Google Gemini ',
+      link: 'https://gemini.google.com',
+      image: '/assets/media/icons/gemini.png',
+      categories: ['all', 'ai'],
     },
   ]
 
